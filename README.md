@@ -11,3 +11,6 @@ Fix and adjust the code structure above github, provide it to other vision tasks
 ## Use pretrained
 To: https://github.com/AAboys/MobileFormer download pretrained weights and put in ckpt 
 
+## package
+    timm==0.6.12
+
