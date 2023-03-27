@@ -11,6 +11,7 @@ model.load_state_dict(ckpt)
 
 x = torch.randn(1,3,224,224)
 
-y = model(x)
+out = model(x)
 
-print(y.shape)
+for o in out:
+    print(o.shape)
